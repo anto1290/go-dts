@@ -21,5 +21,5 @@ func main() {
 	r.DELETE("api/list/:id", listcontroller.Delete)
 	// views
 
-	r.Run("localhost:5000")
+	r.Run()
 }
